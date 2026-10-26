@@ -1,0 +1,4 @@
+# Cortex starter, the transparent agent your coding agent builds with you.
+# Pinned to compatible ranges; bump deliberately.
+claude-agent-sdk>=0.2.168,<0.3  # Anthropic Claude via the Agent SDK (llm.py); bundles the Claude Code runtime
+python-dotenv>=1.0              # loads .env so CORTEX_* bounds are picked up
